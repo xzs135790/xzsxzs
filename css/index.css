@@ -74,7 +74,7 @@ body {
 
 .biejing {
     /* display: none; */
-    background: url(/img/biejing.jpg) no-repeat;
+    background: url(/xzsxzs/img/biejing.jpg) no-repeat;
     background-size: cover;
     /* 必须给宽高！否则不显示 */
     width: 100vw;
@@ -166,7 +166,7 @@ body {
     left: 34px;
     width: 300px;
     height: 600px;
-    background: url(/img/biejing.jpg) no-repeat;
+    background: url(/xzsxzs/img/biejing.jpg) no-repeat;
     border-radius: 15px;
 }
 
