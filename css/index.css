@@ -1,0 +1,183 @@
+@font-face {
+    font-family: 'icomoon';
+    src: url('../fonts/icomoon.eot?v5a48y');
+    src: url('../fonts/icomoon.eot?v5a48y#iefix') format('embedded-opentype'),
+        url('../fonts/icomoon.ttf?v5a48y') format('truetype'),
+        url('../fonts/icomoon.woff?v5a48y') format('woff'),
+        url('../fonts/icomoon.svg?v5a48y#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: box-sizeing;
+}
+
+/* 文字倾向 */
+em,
+i {
+    font-style: normal;
+}
+
+body {
+    font-size: 10px;
+}
+
+/* 去小园点 */
+li {
+    list-style: none;
+}
+
+/* 取消图片下边缝隙 */
+img {
+    vertical-align: middle;
+}
+
+button {
+    cursor: pointer;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+}
+
+input,
+button {
+    border: 0;
+    outline: none;
+}
+
+/* 清除浮动 */
+.qing:after {
+    visibility: hidden;
+    clear: both;
+    display: block;
+    content: "";
+    height: 0;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.biejing {
+    /* display: none; */
+    background: url(/img/biejing.jpg) no-repeat;
+    background-size: cover;
+    /* 必须给宽高！否则不显示 */
+    width: 100vw;
+    /* 宽度 = 屏幕宽度 */
+    height: 100vh;
+    /* 高度 = 屏幕高度 */
+
+}
+
+.head {
+    width: 100%;
+    height: 80px;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+.head h1 {
+    position: relative;
+    top: 24px;
+    left: 116px;
+    color: #fff;
+}
+
+.dengru {
+    position: relative;
+    width: 210px;
+    height: 285px;
+    /* background-color: brown; */
+    margin: 90px auto;
+}
+
+.dengru ul li input[type="text"] {
+    width: 170px;
+    height: 30px;
+    border-radius: 15px;
+    margin: 20px 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 3px solid rgb(17, 0, 255);
+    color: rgb(25, 0, 255);
+}
+
+.dengru ul li input[type="button"] {
+    width: 170px;
+    height: 30px;
+    margin-top: 17px;
+    margin-left: 21px;
+    border-radius: 15px;
+    background-color: transparent;
+    border: 3px solid rgb(64, 0, 255);
+    color: rgb(43, 0, 255);
+}
+
+.zhuti {
+    width: 100vw;
+    height: 100vh;
+    background-color: aqua;
+    /* background-size: cover; */
+}
+
+.biaoti {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(208, 115, 28);
+}
+
+.biaoti h1 {
+    position: relative;
+    top: 31px;
+    left: 79px;
+    color: #fff;
+}
+
+.biaoti h1::after {
+    font-family: 'icomoon';
+    content: "";
+    margin-left: 5px;
+}
+
+.biaoti h1::before {
+    font-family: 'icomoon';
+    content: "";
+
+}
+
+.tan {
+    /* display: none; */
+    position: relative;
+    /* z-index: 99; */
+    top: -82px;
+    left: 34px;
+    width: 300px;
+    height: 600px;
+    background: url(/img/biejing.jpg) no-repeat;
+    border-radius: 15px;
+}
+
+.tan input {
+    position: absolute;
+    bottom: 22px;
+    left: 86px;
+    width: 136px;
+    height: 50px;
+    background-color: transparent;
+    border: 3px solid pink;
+    border-radius: 15px;
+    color: pink;
+}
