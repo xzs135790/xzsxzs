@@ -383,3 +383,9 @@ template {
 li {
     list-style: none;
 }
+
+input,
+button {
+    border: 0;
+    outline: none;
+}
